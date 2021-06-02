@@ -10,30 +10,31 @@ const questions =
             type: 'Input',
             message: "What is the title of your project?",
             name:'Title',
-           
+           validate: (value)=>{ if(value){return true} else {return 'Please input a value'}},
         },
         {
             type:'input',
             message: 'Please describe this app.',
             name:'Description',
-           
+            validate: (value)=>{ if(value){return true} else {return 'Please input a value'}},
         },
         {
             type: 'Input',
             message: 'How do you install this app?',
             name:'Installation',
-            //validate to check if user provided a value
+            validate: (value)=>{ if(value){return true} else {return 'Please input a value'}},
         },
         {
             type: 'Input',
             message: 'What is the usage of this app?',
             name:'Usage',
-            //validate to check if user provided a value
+            validate: (value)=>{ if(value){return true} else {return 'Please input a value'}},
         },
         {
             type: 'Input',
             message: 'Chose a license for your project?',
             name:'License',
+            validate: (value)=>{ if(value){return true} else {return 'Please input a value'}},
         },
          {
             type: 'Input',
@@ -44,19 +45,22 @@ const questions =
             type: "Input",
             message: "Please add contributors",
             name: "Contributor",
+            validate: (value)=>{ if(value){return true} else {return 'Please input a value'}},
           },
          {
             type: 'Input',
             message: 'What is your Github username?',
             name:'UserName',
-            //validate to check if user provided a value
+            validate: (value)=>{ if(value){return true} else {return 'Please input a value'}},
+           
 
          },
          {
             type: 'Input',
             message: 'What is your Email?',
             name:'Email',
-            //validate to check if user provided a value
+            validate: (value)=>{ if(value){return true} else {return 'Please input a value'}},
+           
 
          }
     ];
