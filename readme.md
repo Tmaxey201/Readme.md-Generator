@@ -1,7 +1,7 @@
  # Readme.md-Generator
   [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Tmaxey201/Readme.md-Generator)
   
-  <video width="90%" height="90%" controls autoplay><source src="https://ttprivatenew.s3.amazonaws.com/pulse/sampsoncorgi2-gmail/attachments/17077800/TinyTake02-06-2021-12-42-53.mp4" type="video/mp4">Your browser does not support the video tag.</video><br /><a href="https://www.tinytake.com" title="Powered by TinyTake Screen Capture">Powered by TinyTake Screen Capture</a>
+  [Click here for a video demo](https://ttprivatenew.s3.amazonaws.com/pulse/sampsoncorgi2-gmail/attachments/17077800/TinyTake02-06-2021-12-42-53.mp4)
 
   # Description
   An automatic Readme.md generator using nodeJS
